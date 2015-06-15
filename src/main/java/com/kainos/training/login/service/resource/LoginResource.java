@@ -22,7 +22,7 @@ public class LoginResource {
     }
 
     @POST
-    public Response sayHello(@FormParam("username") String username,
+    public Response login(@FormParam("username") String username,
            @FormParam("password") String password) {
         if(username.equals(requiredUsername) && password.equals(requiredPassword)) {
             return Response.noContent().build();
