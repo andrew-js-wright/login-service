@@ -9,7 +9,7 @@ import org.junit.Test;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 
-public class LoginResourceTests {
+public class LoginResourceTest {
 	
 	private static final String CORRECT_TEST_USERNAME="test";
 	private static final String CORRECT_TEST_PASSWORD="test";
